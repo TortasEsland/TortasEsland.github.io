@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="Estilos/pedidos.css">
+    </head>
+    <body>
+        <header>
+            <h2 id="h2">Genera tu pedido</h2>
+        </header>
+        <main>
+            <form>
+                <fieldset id="datos">
+                    <legend id="date">Datos</legend>
+                    <legend>Nombre:</legend>
+                    <input type="text" id="name" name="user_name" placeholder="Escriba su nombre" required>
+                    <legend id="d">Dirección:</legend>
+                    <p>
+                        <label for="str">Calle o Avenida</label>
+                        <input type="text" id="str" name="user_str" placeholder="Ej. Av. Miguel Hidalgo" required>
+                        <label for="cp">Código Postal</label>
+                        <input type="text" id="cp" name="user_cp" placeholder="Ej. 77518" required>
+                    </p>
+                    <p>
+                        <label for="nume">Num Exterior</label>
+                        <input type="text" id="nume" name="user_nume" placeholder="Ej. 30" required id="num">
+                        <label for="tel">Teléfono</label>
+                        <input type="tel" id="tel" name="user_tel" maxlength="10" placeholder="Ej. 9984265202" required>
+                    </p>
+                    <p>
+                        <label for="mail">Correo electrónico:</label>
+                        <input type="email" id="mail" name="user_mail" placeholder="Ej. correoelectronico@gmail.com" required>
+                    </p>
+                    <p>
+                        <input type="radio" name="boton"> Pedido a domicilio<br>
+                        <input type="radio" name="boton"> Recoger en tienda
+                    </p>
+                    <p>
+                        <label for="prox">Programar para otro día</label>
+                        <input type="datetime-local" name="user_prox">
+                    </p>
+                </fieldset>
+                <fieldset id="producto">
+                    <legend id="text">Presione Control o Mayúsculas para elegir diferentes opciones</legend>
+                    <p id="tortas">
+                        <label >Tortas</label>
+                    </p>
+                    <p id="t">
+                        <select name="menu[]" multiple required>
+                            <option value="1">Sencilla</option>
+                            <option value="2">Campechana</option>
+                            <option value="3">Jamón/Queso</option>
+                            <option value="4">Cubana</option>
+                        </select>
+                        <input type="number" name="num" min="1" required class="num">
+                    </p>
+                    <p id="complementos">
+                    <label>Complementos</label>
+                    </p>
+                    <p id="c">
+                        <select name="menu[]" size="3" multiple>
+                            <option value="1">Ensalada</option>
+                            <option value="2">Papa horneada</option>
+                            <option value="3">Papas a la francesa</option>
+                        </select>
+                        <input type="number" name="num" min="1" class="num">
+                    </p>
+                    <p id="bebidas">
+                        <label>Bebidas</label>
+                    </p>
+                    <p id="b">
+                        <select name="menu[]" size="3" multiple>
+                            <option value="1">Agua de Jamaica</option>
+                            <option value="2">Agua de Horchata</option>
+                            <option value="3">Agua de Limón</option>
+                        </select>
+                        <input type="number" name="num" min="1" class="num">
+                    </p>
+                    <p id="esp">
+                        <label for="esp">Especificaciones:</label>
+                    </p>
+                    <p>
+                        <textarea id="mssg" name="user_esp"></textarea>
+                    </p>
+                    </fieldset>
+                    <p>
+                        <input type="reset" value="Cancelar" id="cancel">
+                        <input type="submit" value="Enviar" id="send">
+                    </p>
+            </form>
+        </main>
+    </body>
+</html>

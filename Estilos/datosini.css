@@ -1,0 +1,32 @@
+#xtra{
+    padding-left: 360px;
+    
+}
+#us{
+    border: outset;
+    border-color: #53BDFF;
+    width: 50%;
+    display: inline-block;
+}
+#nos{
+    padding-left: 18px;
+    font-family: Vogue;
+    font-size: 25px;
+}
+.pa{
+    padding-left: 18px;
+    font-family: Book Antiqua;
+    font-size: 15px;
+}
+#vid{
+    float: right;
+    width: 48%;
+    display: inline-block;
+    height: 350px;
+    margin-top: -205px;
+}
+#audio{
+    height: 120px;
+    width: 50%;
+    margin-top: 20px;
+}

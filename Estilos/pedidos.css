@@ -1,0 +1,91 @@
+#h2{
+    text-align: center;
+    font-family: Microsoft Yahei;
+    font-size: 30px;
+}
+#datos{
+    width: 47%;
+}
+#date{
+    font-size: 24px;
+    font-family: Cambria;
+}
+#d{
+    padding-top: 15px;
+    margin-bottom: -8px;
+}
+#name{
+    width: 80%;
+}
+#str{
+    width: 40%;
+}
+#cp{
+    width: 16%
+}
+#nume{
+    width: 10%;
+}
+#tel{
+    width: 22%;
+}
+#mail{
+    width: 60%;
+}
+#producto{
+    display: inline-block;
+    float: right;
+    margin-top: -328px;
+    width: 49%;
+    height: 320px;
+}
+#text{
+    font-size: 18px;
+    font-family: Cambria;
+}
+#t{
+    display: inline-block;
+    margin-top: -7px;
+}
+#c{
+    display: inline-block;
+    margin-top: -7px;
+}
+#b{
+    display: inline-block;
+    margin-top: -7px;
+}
+.num{
+    width: 14%;
+}
+#esp{
+    float: right;
+    padding-right: 268px;
+    margin-top: -240px;
+}
+#mssg{
+    float: right;
+    clear: both;
+    margin-top: -297px;
+    width: 50%;
+    height: 200px;
+    padding-right: 18px;
+}
+#cancel{
+    float: right;
+    margin-top: 5px;
+}
+#send{
+    float: right;
+    margin-top: 5px;
+    margin-right: 4px;
+}
+#tortas{
+    margin-top: 4px;
+}
+#complementos{
+    margin-top: -5px;
+}
+#bebidas{
+    margin-top: -5px;
+}

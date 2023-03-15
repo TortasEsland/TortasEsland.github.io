@@ -1,0 +1,35 @@
+.pa{
+    font-family: Book Antiqua;
+    margin-left: 18px;
+    margin-top: 18px;
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 18px;
+}
+#h3{
+    font-family: Microsoft Yahei;
+    font-size: 30px;
+    margin-left: 18px;
+}
+#sab{
+    font-family: Microsoft Yahei;
+    font-size: 35px;
+    margin-left: 25px;
+}
+h2{
+    font-family: Microsoft Yahei;
+    margin-left: 18px;
+    font-size: 35px;
+}
+#torta{
+    width: 70%;
+    float: right;
+    height: 250px;
+    margin-top: -80px;
+    margin-right: 140px;
+}
+.caja{
+    width: 40%;
+  display: inline-block;
+  vertical-align: top;
+}

@@ -1,0 +1,31 @@
+#te{
+    text-align: center;
+    color: #CB0401;
+    font-family: Elephant;
+    font-size: 40px;
+    box-shadow: 3px 3px 18px 2px #5448CE;
+}
+#nav{
+    clear: both;
+}
+.menu{
+    display: inline-block;
+    text-align: center;
+    width: 13.6%;
+    background-color: #5448CE;
+    color: white;
+}
+.link{
+    color: white;
+}
+#marco{
+    width: 99.8%;
+    height: 615px;
+}
+#pie{
+    text-align: center;
+    background-color: #5448CE;
+}
+#TE{
+    margin-top: -9px;
+}

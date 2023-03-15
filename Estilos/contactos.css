@@ -1,0 +1,65 @@
+#h1{
+    margin-left: 28px;
+}
+#main{
+    width: 50%;
+}
+#form{
+    margin-left: 28px;
+}
+#name{
+    width: 42%;
+}
+#tel{
+    width: 24%;
+}
+#mail{
+    width: 30%;
+}
+#affair{
+    width: 40%;
+}
+#msg{
+    width: 66%;
+    height: 130px;
+}
+#lat{
+    float: right;
+    width: 52%;
+    margin-top: -400px;
+}
+#h4{
+    font-size: 24px;
+    padding-left: 28px
+}
+#whats{
+    width: 9%;
+    height: 59px;
+    display: inline-block;
+}
+#tele{
+    display: inline-block;
+    padding-left: 18px;
+    width: 60%;
+    font-size: 20px; 
+}
+#face{
+    width: 9%;
+    display: inline-block;
+}
+#cuenta{
+    display: inline-block;
+    padding-left: 18px;
+    width: 60%;
+    font-size: 20px; 
+}
+#gmail{
+    width: 7.4%;
+    display: inline-block;
+}
+#correo{
+    display: inline-block;
+    padding-left: 18px;
+    width: 60%;
+    font-size: 20px;    
+}
