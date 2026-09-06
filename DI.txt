@@ -1,4 +1,0 @@
-## Sobre el proyecto
-
-Este proyecto sirve para practicar GitHub y aprender
-a utilizar repositorios, ramas y Pull Requests.
