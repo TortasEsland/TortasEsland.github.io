@@ -1,0 +1,8 @@
+## Cambios realizados
+
+- Agregué una sección de tecnologías.
+- Mejoré la información del README.
+
+## Objetivo
+
+Practicar el flujo de trabajo con Pull Requests.
