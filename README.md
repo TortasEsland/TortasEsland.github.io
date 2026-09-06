@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="PE.jpg" width=100%>
+  <img src="Shark.jpg" width=100%>
 </p>
